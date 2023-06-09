@@ -169,7 +169,15 @@ ul li {
 
 .button:hover {
     background-color: #d5e9e3;
+    border: 1px solid #0a8557;
 
 }
 
 
+.bebidas {
+    font-weight: 700;
+}
+
+.bocado {
+    color: #6c6c6c;
+}
