@@ -1,0 +1,290 @@
+body {
+    background-color: #2b2b2b;
+}
+
+.modal {
+    position: fixed;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal_container {
+    width: 100%;
+    background-color: #2b2b2b;
+    
+}
+
+.modal-open {
+    pointer-events: unset;
+    opacity: 1;
+}
+
+.modal-close {
+    font-weight: 900;
+    background-color: #ff4057;
+    color: black;
+    padding: 15px 35px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+.modal-close:hover {
+    color: #ff4057;
+    background-color: #2b2b2b;
+    border: 1px solid #ff4057;
+    
+}
+
+
+.nav-item {
+    list-style: none;
+    font-size: 25px;
+    line-height: 125px;
+}
+.modal-btn {
+    color: aliceblue;
+}
+
+.modal-btn:hover {
+    color: #ff4057;
+}
+
+
+
+
+
+.btn {
+    color: white;
+    font-size: 22px;
+}
+
+.btn:active {
+    color: black;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    color: #ff4057;
+}
+
+.btn-works {
+    color: #ff4057;
+}
+
+.btn-works:hover {
+    color:white;
+}
+
+hr {
+    color: #8d8d8d;
+    width: 100%;
+}
+
+.titulo {
+    font-family: font-file-82132;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 8rem;
+    color: white;
+}
+
+.nav {
+    float: right;
+}
+
+#t{
+    color: #ff4057;
+    font-family: 'Castoro TItling';
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+
+.type1 {
+    font-size: 2rem;
+    font-family: 'Bruno Ace';
+    color: white;
+}
+
+#typewriter4 {
+    font-size: 40px;
+    font-family: 'Bruno Ace';
+    color: white;
+}
+
+#typewriter5 {
+    font-size: 25px;
+    font-family: 'Bruno Ace';
+    color: white;
+}
+
+
+
+.h {
+    margin-bottom: 100px;
+}
+
+.a {
+    margin-top: 100px;
+}
+
+.text {
+    margin-top: 0;
+}
+
+.logo {
+    background-color: #202020;
+    min-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 7px;
+}
+
+.t2{
+    color: #ff4057;
+    font-family: 'Castoro TItling';
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.form {
+    border: none;
+    width: 49%;
+    display: inline;
+    padding: 10px;
+    background-color: #2b2b2b;
+    color: #8d8d8d;
+}
+
+.form2 {
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2b2b2b;
+    color: #8d8d8d;
+}
+
+#boton {
+    list-style: none;
+    background-color: #202020;
+    padding: 10px 40px;
+    color: #ff4057;
+    font-size: 1rem;
+    font-family: 'CastoroT itling';
+    border: solid 2px #ff4057;
+    font-weight: 600;
+    transition: background-color 500ms, color 500ms;
+    position:relative;
+    margin-left: 35%;
+    margin-top: 50px;
+
+}
+
+#boton:hover {
+
+    border: solid 2px transparent;
+    background-color: #ff4057;
+    color: #202020;
+    font-weight: 600;
+}
+
+@media (min-width: 992px){
+    .mapa{
+        height: 450px;
+    }
+    
+}
+
+
+@media (max-width: 992px) {
+    .img-logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+
+    #typewriter4, #typewriter5, .type1 {
+        font-size: 20px;
+        font-family: 'Bruno Ace';
+        color: white;
+    }
+
+    .img {
+        width: 50px;
+        height: 40px;
+    }
+
+    .pc {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .modal-btn {
+        font-size: 30px;
+    }
+}
+
+#a {
+    color: #3e4bff;
+    font-family: 'Castoro TItling';
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#s {
+    color: #ff4057;
+    font-family: 'Castoro TItling';
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.mini-text {
+    font-size: 3rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Castoro Titling';
+}
+
+ul {
+    list-style:none;
+}
+
+.white-line {
+    border-top: 1px solid white;
+}
+
+.lists {
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Castoro Titling';
+    
+}
+
+.see-projects {
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 1px solid #ff4057;
+    border-radius: 5px;
+    background-color:#202020;
+    color:#ff4057;
+    font-size: 30px;
+    transition: background-color 500ms, color 500ms;
+    margin-bottom: 200px;
+    margin-top: 30px;
+}
+
+.see-projects:hover {
+    background-color: #ff4057;
+    color:black;
+
+}
